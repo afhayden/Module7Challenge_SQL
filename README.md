@@ -18,16 +18,16 @@ The purpose of this analysis is to determine the number of retiring employees pe
 ## Summary of Results
 * Below is a listing of the "retirements_title" table which was saved as a CVS file. There are 133,776 who are expected to retire.
 
-![Sample of Retirement Titles Table](images\retirement_titles_table.png)
+![Sample of Retirement Titles Table](images/retirement_titles_table.PNG)
 
 * There are 7 types of job roles affected by this retirement. 
 * Amazingly, there are very few Managers. Many Managers can be mentors to employees. This is a problem.
 
-![Retiring Job Titles](images\Retiring_Job_Titles.png)
+![Retiring Job Titles](images/Retiring_Job_Titles.PNG)
 
 * There are only 1,549 eligible mentors.
 
-![Sample of Mentorship Eligibility Table](images\mentorship_eligibility_table.png)
+![Sample of Mentorship Eligibility Table](images/mentorship_eligibility_table.PNG)
 
 ## Summary
 ### Current Analaysis
@@ -56,7 +56,7 @@ Another area to research is how long some of these staff have remained in the ro
     WHERE e.birth_date > '1955-12-31'
     ORDER BY e.emp_no;
 
-![Non-Retiring Age - Yrs in Role](images\Non-Retiring_Age_Roles.png)
+![Non-Retiring Age - Yrs in Role](images/Non-Retiring_Age_Roles.PNG)
 
 
 Another query is to find out what are the other age groups for non-retiring employees. Perhaps, some of these employees can be grouped into mid-level or senior-level mentoring partners. The query for this is as follows:
@@ -82,7 +82,7 @@ Another query is to find out what are the other age groups for non-retiring empl
     GROUP BY emp_age
     ORDER BY emp_age;
 
-![Non-Retiring Age Distribution](images\Non-Retiring_Age_Distribution.png)
+![Non-Retiring Age Distribution](images/Non-Retiring_Age_Distribution.PNG)
 
 
 
