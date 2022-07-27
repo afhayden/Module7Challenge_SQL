@@ -1,32 +1,21 @@
 # Module 7 Challenge Pewlett-Hackard Silver Tsunami Analysis
-The project task is to provide weather information for list of randomly selected cities and closet hotels based on minimumum and max temperature preferences.
+The purpose of this analysis is to determine the number of retiring employees per title, and identify employees who are eligible to participate in a mentorship program.
 
 ## Summary of Tasks
 ### Deliverable 1
-* Generate a sample of 2,000 random latitudes and longitudes
-* Retrieve the nearest city using citipy
-* Obtain weather information using an API call to OpenWeatherMap
-* Save the cities and weather data to WeatherPy_Database.csv within the Weather_Database folder
+* Obtain a list of employees and their titles who are expected to retired based on their birtdate being between 01/01/1952 and 12/31/1955.
+* Based on this list of retired employees, obtain a list and count of the job titles teh retirerees hold
 
-### Deliverable 2
-* Obtain user info for minimum and maximum temperature preferences
-* Using the data saved in WeatherPy_Database.csv, create DataFrame for cities that meet the minimum and maximum temperature crtieria
-* Using Google Maps API, identify nearest hotels to those selected cities
-* Add hotel info pop-up box data for each of those cities
-* Save the updated cities information to WeatherPy_vacation.csv within the Vacation_Search folder
-* Display Google Map with hotel name and weather information in markers
-
-### Deliverable 3
-* Select four (4) cities close in proximity to one another and in the same country
-* Display a map of the cities with directional layer
-* Display a map of the cities with hotel name and weather information in markers
+### Deliverable 2 - Obtain a list of retiring employees who are eligible to mentor others based on their birth date being 1965
 
 ## Resources
-- Data Source: city_data.csv, ride_data.csv
-- Software: Python 3.9.12, Jupyterlab 3.3.2, Pandas 1.4.2, citypy 0.0.5, numpy 1.21.5, requests 2.27.1
-- APIs: OpenWeatherMap, GoogleMaps
+- Data Source: employees.csv, departments.csv, dept_emp.csv, titles.csv
+- Software: pgAdmin4 v6.8, 
+- Database: Postgres v11
 
 ## Summary of Results
+There are 
+
 ### Map of Overall Global Search
 ![Map of Overall Global Search](Vacation_Search/WeatherPy_vacation_map.png)
 
