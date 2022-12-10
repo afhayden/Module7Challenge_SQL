@@ -1,4 +1,4 @@
-# Module 7 Challenge Pewlett-Hackard Silver Tsunami Analysis
+# Pewlett-Hackard Silver Tsunami Analysis Using SQL
 The purpose of this analysis is to determine the number of retiring employees per title, and identify employees who are eligible to participate in a mentorship program.
 
 ## Summary of Tasks
